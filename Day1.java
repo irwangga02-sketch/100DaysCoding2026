@@ -1,13 +1,20 @@
-// langkah pertama kita membuat class bernama Day1 //
-// langkah kedua kita tambahkan {} yang menandai awal dan akhir blok kode //
-// langkah ketiga kita tambahkan method main,dimana method ini yang pertama kali dijalankan oleh java //
-// langkah keempat kita tambah System.out.println() dan tanda parentheses/() bisa kita isi parameter atau nilai yang akan kita cetak //
-// langkah terakhir menambahkan ; untuk menandai akhir dari sebuah statement //
+/*
+*nama class Day1 java
+*/
 
-public class Day1{
-  public static void main(String[] args) {
-    System.out.println("hello world");
-  }
+    // langkah pertama kita membuat class bernama Day1 dan menambahkan {} sebagai penanda awal dan akhir blok kode
+public class Day1 {
+
+    // langkah kedua menambahkan method main,dimana method ini yang pertama dijalankan di java
+    public static void main(String[] args) {
+
+        System.out.println("hello world");
+
+        /* * langkah ketiga menambahkan System.out.println() dan tanda parentheses/() bisa kita isi dengan parameter
+         * atau nilai yang ingin kita cetak serta tanda ; untuk mengakhiri statement
+         */
+    }
+
 }
 
 
