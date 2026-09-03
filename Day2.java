@@ -28,3 +28,5 @@ public class Day2 {
         /*printf() -Digunakan untuk mencetak dengan format tertentu.
             %d digunakan untuk menampilkan data bertipe int.*/
         System.out.printf("\nUmur : %d tahun", umur);
+    }
+}
