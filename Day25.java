@@ -6,7 +6,8 @@ public class Day25 {
         final double pi = 3.14; 
         System.out.print("masukkan r2 : ");
         String r = s.nextLine();
-        double a = Double.parseDouble(r); 
+        int c = Integer.parseInt(r);
+        double a = (double) c; 
         // rumus PI * r * r
         double kel = pi * a * a;
         double akhir = kel - (kel * 2);
@@ -16,3 +17,4 @@ public class Day25 {
         
     }
 }
+
